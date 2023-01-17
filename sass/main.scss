@@ -1,0 +1,13 @@
+@use '../sass/utils' as *;
+@use '../sass/components' as *;
+
+body {
+  font-family: var(--ff-primary);
+  position: relative;
+  background-color: var(--bg-primary-400);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}

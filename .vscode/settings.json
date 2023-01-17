@@ -1,0 +1,14 @@
+{
+  "json.format.enable": true,
+  "workbench.settings.useSplitJSON": true,
+  "files.autoSave": "afterDelay",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".min.css",
+      "savePath": "~/../css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
+}
