@@ -1,5 +1,11 @@
 # Front-end Style Guide
 
+    Victor Crest 26
+    London
+    80K Followers
+    803K Likes
+    1.4K Photos
+
 ## Layout
 
 The designs were created to the following widths:
@@ -11,9 +17,8 @@ The designs were created to the following widths:
 
 ### Primary
 
-Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
+Dark cyan: hsl(185, 75%, 39%) Very dark desaturated blue: hsl(229, 23%, 23%) Dark grayish blue:
+hsl(227, 10%, 46%)
 
 ### Neutral
 

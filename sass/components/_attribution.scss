@@ -1,0 +1,19 @@
+@use '../utils' as *;
+
+.attribution {
+    width: 100%;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  @include text(var(--fs-300), var(--text-primary-100), 400, 1.2);
+  &__link {
+    color: var(--text-primary-100);
+    font-weight: 700;
+    transition: 0.3s ease-in;
+    &:hover,
+    &:focus {
+      color: var(--text-primary-600);
+    }
+  }
+}

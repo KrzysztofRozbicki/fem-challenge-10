@@ -1,1 +1,26 @@
-@use '../utils/vars.scss' as *;
+@use '../utils/vars' as *;
+
+@mixin text($size, $color, $weight, $line) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  line-height: $line;
+}
+
+.header-500 {
+  @include text(var(--fs-600), var(--text-primary-600), 700, 1.24);
+  margin-bottom: 0.5rem;
+  &__age {
+    color: var(--text-primary-500);
+    font-weight: 400;
+  }
+}
+
+.text-400 {
+  @include text(var(--fs-400), var(--text-primary-500), 400, 1.24);
+  letter-spacing: 1.5px;
+}
+
+.text-500 {
+  @include text(var(--fs-500), var(--text-primary-500), 400, 1.085);
+}

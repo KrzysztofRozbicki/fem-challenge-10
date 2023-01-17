@@ -1,0 +1,19 @@
+:root {
+  --ff-primary: 'Kumbh Sans', sans-serif;
+
+  --fs-300: 0.5rem;
+  --fs-400: 0.625rem;
+  --fs-500: 0.875rem;
+  --fs-600: 1.125rem;
+
+  --bg-primary-100: #ffffff;
+  --bg-primary-500: hsl(185, 75%, 39%);
+
+  --border-primary-500: hsla(0, 0%, 59%, 0.2);
+
+  --text-primary-100: var(--bg-primary-100);
+  --text-primary-500: hsl(227, 10%, 46%);
+  --text-primary-600: hsl(229, 23%, 23%);
+}
+
+$tablet-size: 25em;
