@@ -17,7 +17,6 @@
   color: var(--text-primary-600);
   font-weight: 700;
   line-height: 1.24;
-  margin-bottom: 0.5rem;
 }
 .header-500__age {
   color: var(--text-primary-500);
@@ -30,6 +29,7 @@
   font-weight: 400;
   line-height: 1.24;
   letter-spacing: 1.5px;
+  margin-top: 0.375rem;
 }
 
 .text-500 {
@@ -37,6 +37,7 @@
   color: var(--text-primary-500);
   font-weight: 400;
   line-height: 1.085;
+  margin-top: 0.75rem;
 }
 
 .profile {
@@ -53,7 +54,7 @@
   overflow: hidden;
   border: 5px solid var(--bg-primary-100);
   position: absolute;
-  top: 40%;
+  top: 37%;
   left: 50%;
   -webkit-transform: translate(-50%, -100%);
           transform: translate(-50%, -100%);
@@ -66,8 +67,12 @@
 }
 .profile__stats {
   padding: 1.5rem 2.5rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (min-width: 25em) {

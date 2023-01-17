@@ -9,7 +9,6 @@
 
 .header-500 {
   @include text(var(--fs-600), var(--text-primary-600), 700, 1.24);
-  margin-bottom: 0.5rem;
   &__age {
     color: var(--text-primary-500);
     font-weight: 400;
@@ -19,8 +18,10 @@
 .text-400 {
   @include text(var(--fs-400), var(--text-primary-500), 400, 1.24);
   letter-spacing: 1.5px;
+  margin-top: 0.375rem;
 }
 
 .text-500 {
   @include text(var(--fs-500), var(--text-primary-500), 400, 1.085);
+  margin-top: 0.75rem;
 }
